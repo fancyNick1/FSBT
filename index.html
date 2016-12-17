@@ -1,32 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- podatci o stranici-->
-	<title>Predavanje 3</title>
-
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<!-- mora se poštivati ovaj redoslijed učitavanja skripti-->
+	<title>Home</title>
 	<script src="angular.js"></script>
-	<script src="skripta.js"></script>
-
+	<script src="angular-route.js"></script>
 </head>
-<body ng-app="app" ng-controller="homeController">
-	<!-- sadržaj stranice-->
-	<!-- lista tagova: http://www.simplehtmlguide.com/cheatsheet.php -->
-
-	<br>
-	Unesi operande: <br>
-	<input type="text" ng-model="prviOperand"><br>
-	<input type="text" ng-model="drugiOperand"><br>
-	<p ng-bind="rezultat()"></p>
-	<!-- <p>{{ prviOperand*1 + drugiOperand*1 }}</p> -->
-
-	<button ng-click=" prviOperand = ''; drugiOperand = '' ">
-		Isprazni inpute!
-	</button>
-
-	<img src="./download.jpg" ng-show="isResultBelowHundred()">
-
+<body>
+	<a href="/#!/homework.html">Homework</a>
+	<a href="/#!/profile.html">Profile</a>
 </body>
-
 </html>
