@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Profile</title>
+	<script src="angular.js"></script>
+	<style type="text/css" src="profile.css"></style>
+</head>
+<body ng-app="app">
+	<!-- <div class="form">
+		<p>Ime:</p>	
+		<p>Prezime:</p>	
+		<p>Godine:</p>		
+		<p>Dodaj u inventar:</p>
+		<button>Dodaj</button>
+	</div>
+
+	<div>
+		<ul>
+		<li><input ng-model="ime"></li>
+		<li><input ng-model="prezime"></li>
+		<li><input ng-model="godine"></li>
+		<li><input ng-model="inventar"></li>
+		</ul>
+	</div> -->
+	<div class="form">
+		<table>
+			<tr>
+				<td>Ime:</td>
+				<td><input ng-model="ime"></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Prezime:</td>
+				<td><input ng-model="prezime"></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Godine:</td>
+				<td><input ng-model="godine"></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Dodaj u inventar:</td>
+				<td><input ng-model="inventar"></td>
+				<td><button>Dodaj</button></td>
+			</tr>
+		</table>
+	</div>
+	<div class="display">
+		
+	</div>
+</body>
+</html>
