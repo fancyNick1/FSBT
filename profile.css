@@ -1,3 +1,9 @@
-.form {
+div.form {
 	float: left;
+}
+div.display {
+	border: 1px solid black;
+}
+td {
+	size: 20px;
 }
